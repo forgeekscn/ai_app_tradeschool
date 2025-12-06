@@ -218,7 +218,7 @@ export default function HomePage() {
   };
 
   return (
-    <div className="container mx-auto px-4 py-4 space-y-6">
+    <div className="container mx-auto px-4 pt-12 pb-4 space-y-6">
       {/* 轮播图 */}
       <Carousel items={carouselData} onSlideClick={handleCarouselClick} />
 

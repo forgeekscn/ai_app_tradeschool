@@ -11,6 +11,7 @@ import ProductDetailPage from '@/components/ProductDetailPage';
 import InterestGroupDetailPage from '@/components/InterestGroupDetailPage';
 import ContentCommunityDetailPage from '@/components/ContentCommunityDetailPage';
 import ActivityDetailPage from '@/components/ActivityDetailPage';
+import FloatingBanner from '@/components/FloatingBanner';
 import { NavigationProvider } from '@/lib/NavigationContext';
 import { useNavigation } from '@/lib/NavigationContext';
 
@@ -100,6 +101,7 @@ function AppContent() {
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
+      {activeTab === 'home' && !showAnyDetail && <FloatingBanner />}
       {!showAnyDetail && <Header />}
       <main className="flex-1 overflow-hidden">
         {renderContent()}
