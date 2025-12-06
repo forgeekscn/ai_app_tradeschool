@@ -1,19 +1,19 @@
 'use client';
 
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import HomePage from '../components/HomePage';
-import SecondHandTradePage from '../components/SecondHandTradePage';
-import InterestGroupPage from '../components/InterestGroupPage';
-import ContentCommunityPage from '../components/ContentCommunityPage';
-import PersonalCenterPage from '../components/PersonalCenterPage';
-import ProductDetailPage from '../components/ProductDetailPage';
-import InterestGroupDetailPage from '../components/InterestGroupDetailPage';
-import ContentCommunityDetailPage from '../components/ContentCommunityDetailPage';
-import ActivityDetailPage from '../components/ActivityDetailPage';
-import FloatingBanner from '../components/FloatingBanner';
-import { NavigationProvider } from '../lib/NavigationContext';
-import { useNavigation } from '../lib/NavigationContext';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import HomePage from '@/components/HomePage';
+import SecondHandTradePage from '@/components/SecondHandTradePage';
+import InterestGroupPage from '@/components/InterestGroupPage';
+import ContentCommunityPage from '@/components/ContentCommunityPage';
+import PersonalCenterPage from '@/components/PersonalCenterPage';
+import ProductDetailPage from '@/components/ProductDetailPage';
+import InterestGroupDetailPage from '@/components/InterestGroupDetailPage';
+import ContentCommunityDetailPage from '@/components/ContentCommunityDetailPage';
+import ActivityDetailPage from '@/components/ActivityDetailPage';
+import FloatingBanner from '@/components/FloatingBanner';
+import { NavigationProvider } from '@/lib/NavigationContext';
+import { useNavigation } from '@/lib/NavigationContext';
 
 function AppContent() {
   const {
