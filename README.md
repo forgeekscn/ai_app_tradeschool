@@ -64,6 +64,11 @@ npm run dev
 #### 小程序转换
  **转换小程序如微信抖音支付宝**: "prompt：使用Taro框架将应用转换为微信小程序，实现页面适配和小程序特有功能" （备注：视觉变化可能较大，需要多次调整，不建议直接转）
 
+### 6. 部署上线（5min）
+- 国内用腾讯云 [edge one page](https://console.cloud.tencent.com/edgeone)（不备案时，部署后每次点预览按钮，可提供3h临时url访问）
+- 国外可用cloud flare，vercel，zeabur,hostinger,都不复杂可自行探索
+
+
 ---
 
 ## 🛠 主要工具
